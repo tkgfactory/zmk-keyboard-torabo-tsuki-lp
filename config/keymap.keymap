@@ -28,11 +28,11 @@
 
         layer_1 {
             bindings = <
-&none  &none       &none           &none     &none            &none                              &none             &none              &none                 &none                  &none      &none
-&none  &kp ESCAPE  &none           &kp UP    &none            &kp INSERT                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &none
-&none  &kp CLCK    &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &none       &none  &none           &none             &kp SEMICOLON      &kp COLON             &kp MINUS              &kp AT     &none
-&none  &kp TAB     &none           &none     &none            &none       &mo 3  &kp SPACE       &kp EXCLAMATION   &kp QUESTION       &kp COMMA             &kp PERIOD             &kp SLASH  &none
-&none  &kp ENTER   &none           &none     &kp LSHIFT       &mo 2       &mo 1  &kp LEFT_SHIFT  &kp SPACE         &none              &none                 &none                  &none      &none
+&none  &none                    &none           &none     &none            &none                              &none             &none              &none                 &none                  &none      &none
+&none  &kp ESCAPE               &none           &kp UP    &none            &kp INSERT                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &none
+&none  &kp LANG_ZENKAKUHANKAKU  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &none       &none  &none           &none             &kp SEMICOLON      &kp COLON             &kp MINUS              &kp AT     &none
+&none  &kp TAB                  &none           &none     &none            &none       &mo 3  &kp SPACE       &kp EXCLAMATION   &kp QUESTION       &kp COMMA             &kp PERIOD             &kp SLASH  &none
+&none  &kp CLCK                 &none           &none     &kp LSHIFT       &mo 2       &mo 1  &kp LEFT_SHIFT  &kp SPACE         &none              &none                 &none                  &none      &none
             >;
         };
 
