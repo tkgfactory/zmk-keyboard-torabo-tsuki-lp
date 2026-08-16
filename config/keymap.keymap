@@ -18,21 +18,21 @@
 
         basic {
             bindings = <
-&none  &none      &none     &none     &none           &none                         &none      &none  &none      &none      &none      &none
-&none  &kp Q      &kp W     &kp E     &kp R           &kp T                         &kp Y      &kp U  &kp I      &kp O      &kp P      &none
-&none  &kp A      &kp S     &kp D     &kp F           &kp G  &kp SPACE  &kp SPACE   &kp H      &kp J  &kp K      &kp L      &kp BSPC   &none
-&none  &kp Z      &kp X     &kp C     &kp V           &kp B  &to 4      &to 0       &kp N      &kp M  &mkp LCLK  &mkp RCLK  &kp ENTER  &none
-&none  &kp LCTRL  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &mo 2  &mo 1      &kp LSHIFT  &kp SPACE  &none  &none      &mo 3      &kp SPACE  &none
+&none  &none      &none     &none     &none           &none                         &none      &none  &none      &none      &none         &none
+&none  &kp Q      &kp W     &kp E     &kp R           &kp T                         &kp Y      &kp U  &kp I      &kp O      &kp P         &none
+&none  &kp A      &kp S     &kp D     &kp F           &kp G  &kp SPACE  &kp SPACE   &kp H      &kp J  &kp K      &kp L      &kp BSPC      &none
+&none  &kp Z      &kp X     &kp C     &kp V           &kp B  &to 4      &to 0       &kp N      &kp M  &mkp LCLK  &mkp RCLK  &kp ENTER     &none
+&none  &kp LCTRL  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &mo 2  &mo 1      &kp LSHIFT  &kp SPACE  &none  &none      &mo 3      &bt BT_SEL 1  &none
             >;
         };
 
         functional {
             bindings = <
-&none  &none       &none           &none     &none            &none                              &none             &none              &none                 &none                  &none      &none
-&none  &kp ESCAPE  &none           &kp UP    &none            &kp INSERT                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &none
-&none  &kp GRAVE   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &none       &none  &none           &none             &kp SEMICOLON      &kp COLON             &kp MINUS              &kp AT     &none
-&none  &kp TAB     &none           &none     &none            &none       &mo 3  &kp SPACE       &kp EXCLAMATION   &kp QUESTION       &kp COMMA             &kp PERIOD             &kp SLASH  &none
-&none  &kp CLCK    &none           &none     &kp LSHIFT       &mo 2       &mo 1  &kp LEFT_SHIFT  &kp SPACE         &none              &none                 &none                  &none      &none
+&none  &none       &none           &none     &none            &none                                     &none             &none              &none                 &none                  &none      &none
+&none  &kp ESCAPE  &none           &kp UP    &none            &kp INSERT                                &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &none
+&none  &kp GRAVE   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp K_SCROLL_UP    &none  &none           &none             &kp SEMICOLON      &kp COLON             &kp MINUS              &kp AT     &none
+&none  &kp TAB     &none           &none     &none            &kp K_SCROLL_DOWN  &mo 3  &kp SPACE       &kp EXCLAMATION   &kp QUESTION       &kp COMMA             &kp PERIOD             &kp SLASH  &none
+&none  &kp CLCK    &none           &none     &kp LSHIFT       &mo 2              &mo 1  &kp LEFT_SHIFT  &kp SPACE         &none              &none                 &none                  &none      &none
             >;
         };
 
@@ -58,11 +58,11 @@
 
         ipad {
             bindings = <
-&none  &none      &none         &none         &none           &none                         &none      &none  &none      &none      &none      &none
-&none  &kp Q      &kp W         &kp E         &kp R           &kp T                         &kp Y      &kp U  &kp I      &kp O      &kp P      &none
-&none  &kp A      &kp S         &kp D         &kp F           &kp G  &kp SPACE  &kp SPACE   &kp H      &kp J  &kp K      &kp L      &kp BSPC   &none
-&none  &kp Z      &kp X         &kp C         &kp V           &kp B  &to 4      &to 0       &kp N      &kp M  &mkp LCLK  &mkp RCLK  &kp ENTER  &none
-&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &mo 2  &mo 1      &kp LSHIFT  &kp SPACE  &none  &none      &mo 3      &kp SPACE  &none
+&none  &none      &none         &none         &none           &none                         &none      &none  &none      &none      &none         &none
+&none  &kp Q      &kp W         &kp E         &kp R           &kp T                         &kp Y      &kp U  &kp I      &kp O      &kp P         &none
+&none  &kp A      &kp S         &kp D         &kp F           &kp G  &kp SPACE  &kp SPACE   &kp H      &kp J  &kp K      &kp L      &kp BSPC      &none
+&none  &kp Z      &kp X         &kp C         &kp V           &kp B  &to 4      &to 0       &kp N      &kp M  &mkp LCLK  &mkp RCLK  &kp ENTER     &none
+&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &mo 2  &mo 1      &kp LSHIFT  &kp SPACE  &none  &none      &mo 3      &bt BT_SEL 0  &none
             >;
         };
     };
